@@ -1,0 +1,72 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.parallax {
+    height: 700px;
+
+    background: linear-gradient(to bottom, rgba(255, 112, 67, 0), rgba(255, 112, 67, 0)), url('../img/heroBG.jpg') no-repeat fixed bottom;
+    background-size: cover;
+
+    border-bottom-right-radius: 80% 8%;
+    border-bottom-left-radius: 80% 8%;
+}
+
+.navbar-scroll {
+    background-color: rgba(63, 81, 181, 0.5);
+    transition: background-color 0.5s;
+}
+
+.heroContent {
+    margin-top: 20%;
+}
+
+.heroContent h1 {
+    font-size: 3.8em;
+    color: #b1b9c5;
+    margin-bottom: 3%;
+}
+
+.heroContent h5 {
+    color: #D1D5DB;
+    margin-bottom: 3%;
+}
+
+@media(max-width: 768px){
+    .heroContent {
+        margin-top: 30%;
+    }
+
+    .heroContent h1 {
+        font-size: 3.4em;
+        color: #b1b9c5;
+        margin-bottom: 15%;
+    }
+
+    .heroContent h5 {
+        margin-bottom: 15%;
+    }
+}
+
+.servicesCard {
+    transition: transform .4s;
+}
+
+.servicesCard:hover {
+    transform: scale(1.1);
+}
+
+@media(max-width: 768px){
+    .servicesCard{
+        margin-bottom: 50px;
+    }
+
+    .servicesCard:hover {
+        transform: none;
+    }
+}
