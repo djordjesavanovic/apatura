@@ -10,7 +10,7 @@ body {
 .parallax {
     height: 700px;
 
-    background: linear-gradient(to bottom, rgba(255, 112, 67, 0), rgba(255, 112, 67, 0)), url('../img/heroBG.jpg') no-repeat fixed bottom;
+    background: linear-gradient(to bottom, rgba(63, 81, 181, 0.1), rgba(63, 81, 181, 0.1)), url('../img/headerBG.jpg') no-repeat fixed bottom;
     background-size: cover;
 
     border-bottom-right-radius: 80% 8%;
@@ -28,12 +28,12 @@ body {
 
 .heroContent h1 {
     font-size: 3.8em;
-    color: #b1b9c5;
+    color: #eff1f3;
     margin-bottom: 3%;
 }
 
 .heroContent h5 {
-    color: #D1D5DB;
+    color: #b1b9c5;
     margin-bottom: 3%;
 }
 
