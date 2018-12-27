@@ -9,6 +9,9 @@
  * Custom Bootstrap Theme by and for Apatura GmbH
  */
 
+
+
+
 @media print {
     *,
     *::before,
@@ -2394,7 +2397,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-light:hover {
-    color: #fff;
+    color: #ff7043;
     background-color: #eff1f3;
     border-color: #eff1f3;
 }
@@ -2406,14 +2409,14 @@ fieldset[disabled] a.btn {
 
 .btn-outline-light.disabled,
 .btn-outline-light:disabled {
-    color: #eff1f3;
+    color: #ff7043;
     background-color: transparent;
 }
 
 .btn-outline-light:active,
 .btn-outline-light.active,
 .show > .btn-outline-light.dropdown-toggle {
-    color: #fff;
+    color: #ff7043;
     background-color: #eff1f3;
     border-color: #eff1f3;
 }
@@ -3628,6 +3631,7 @@ tbody.collapse.show {
 
 .card-body {
     flex: 1 1 auto;
+    z-index: 1;
     padding: 1.25rem;
 }
 
