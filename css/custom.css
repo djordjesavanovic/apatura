@@ -4,10 +4,6 @@ html {
     position: relative;
     min-height: 100%;
 }
-body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
-}
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
@@ -32,10 +28,6 @@ body {
     transition: background-color 0.5s;
 }
 
-.heroContent {
-    margin-top: 22%;
-}
-
 .heroContent h1 {
     font-size: 2.9em;
     font-weight: normal;
@@ -49,17 +41,14 @@ body {
 }
 
 @media(max-width: 768px){
-    .heroContent {
-        margin-top: 35%;
-    }
-
     .heroContent h1 {
-        font-size: 3.4em;
-        margin-bottom: 15%;
+        font-size: 3em;
+        margin-bottom: 12%;
     }
 
     .heroContent h5 {
-        margin-bottom: 15%;
+        font-size: 1em;
+        margin-bottom: 12%;
     }
 }
 
@@ -135,10 +124,6 @@ and (orientation : portrait) {
         height: auto;
     }
 
-    .heroContent {
-        margin-top: 27%;
-    }
-
     .heroContent h1 {
         font-size: 3.8em;
         color: #eff1f3;
@@ -155,10 +140,6 @@ and (orientation : portrait) {
 and (min-device-width : 360px)
 and (max-device-width : 640px)
 and (orientation : portrait) {
-
-    .heroContent {
-        margin-top: 42%;
-    }
 
     .heroContent h1 {
         font-size: 2.8em;
