@@ -1,5 +1,9 @@
 .typewrite { color: #ff7043; text-decoration: none;}
 
+body {
+    position: relative;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -29,7 +33,7 @@ html {
 }
 
 .heroContent h1 {
-    font-size: 2.9em;
+    font-size: 2.8em;
     font-weight: normal;
     color: #eff1f3;
     margin-bottom: 3%;
@@ -214,4 +218,44 @@ and (orientation : portrait) {
         color: #b1b9c5;
         margin-bottom: 14%;
     }
+}
+
+.process {
+    margin-top: 10%;
+}
+
+.step {
+    margin-top: 10px;
+}
+
+.stepHeader {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.stepHeader h1 {
+    font-weight: bolder;
+    font-size: 3.8em;
+}
+
+.stepNumber {
+    padding: 5%;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: -1;
+    color: #E0E3E8;
+    font-weight: lighter;
+    opacity: 0.8;
+    font-size: 245px;
+    line-height: 245px;
+    -webkit-transform: translate3d(-30%, -30%, 0);
+    transform: translate3d(-30%, -30%, 0);
+}
+
+.stepDescription {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 90%;
 }
